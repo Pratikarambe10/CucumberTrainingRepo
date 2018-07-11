@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 							"html:target/cucumber-htmlreport", 
 							"json:target/cucumber-report"+193+".json",
 							"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport.html"
-					}
+					} 
 					)
 
 public class RunStepDefsTest {
