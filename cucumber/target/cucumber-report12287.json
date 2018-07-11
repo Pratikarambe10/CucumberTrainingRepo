@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5768860310,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedClass.getDriver()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "validate Registration Scenario1",
+        "description": "",
+        "id": "registration-page-with-hooks;validate-registration-scenario1",
+        "after": [
+          {
+            "result": {
+              "duration": 717697271,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10104501643,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on registration Page",
+            "match": {
+              "location": "OneFolderStepDefs1.the_user_is_on_registration_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118757210,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he enters \"David\" as user name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 11
+                }
+              ],
+              "location": "OneFolderStepDefs1.He_enters_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7141205166,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he enters \"Rogers\" as user last name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rogers",
+                  "offset": 11
+                }
+              ],
+              "location": "OneFolderStepDefs2.He_enters_user_last_name(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Registration page with hooks",
+    "description": "As a new user, I want to enter firstname and lastname as a parameter",
+    "id": "registration-page-with-hooks",
+    "keyword": "Feature",
+    "uri": "sharingdriver.feature"
+  }
+]
